@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-10-03T01:10:54.173Z",
+        "start_timestamp": "2022-11-28T13:47:33.670Z",
         "before": [
           {
             "result": {
-              "duration": 7926736000,
+              "duration": 10123055000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 470000,
+              "duration": 576127900,
               "status": "passed"
             },
             "match": {
@@ -35,9 +35,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d94.0.4606.71)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Karthiks-MBP.hub\u0027, ip: \u00272404:4408:674d:5e00:1e5:ee55:a990:b410%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002714.0.2\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/yv/6xps4d191g1...}, goog:chromeOptions: {debuggerAddress: localhost:62377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 6a70dc9da13a3d7c565b8b6dace...}\nSession ID: 6a70dc9da13a3d7c565b8b6dace0a9da\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy70.click(Unknown Source)\n\tat com.ea.SpringBasic.pages.HomePage.ClickLogin(HomePage.java:36)\n\tat com.ea.SpringBasic.steps.LoginSteps.iClickLoginInHomePage(LoginSteps.java:29)\n\tat ✽.I click login in Home Page(file:///Users/karthikkk/Downloads/SpringBasic%203-2/src/test/java/com/ea/SpringBasic/features/Login.feature:5)\n",
-              "duration": 1357892000,
-              "status": "failed"
+              "duration": 683711300,
+              "status": "passed"
             },
             "line": 5,
             "name": "I click login in Home Page",
@@ -48,8 +47,8 @@
           },
           {
             "result": {
-              "duration": 3752000,
-              "status": "skipped"
+              "duration": 145243100,
+              "status": "passed"
             },
             "line": 6,
             "name": "I enter the following for Login",
@@ -74,8 +73,8 @@
           },
           {
             "result": {
-              "duration": 11000,
-              "status": "skipped"
+              "duration": 1176684900,
+              "status": "passed"
             },
             "line": 9,
             "name": "I click login button",
@@ -86,8 +85,8 @@
           },
           {
             "result": {
-              "duration": 5000,
-              "status": "skipped"
+              "duration": 58680400,
+              "status": "passed"
             },
             "line": 10,
             "name": "I should see the userform page",
@@ -98,8 +97,8 @@
           },
           {
             "result": {
-              "duration": 5000,
-              "status": "skipped"
+              "duration": 79018300,
+              "status": "passed"
             },
             "line": 11,
             "name": "I click logout link",
@@ -111,11 +110,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-03T01:10:54.173Z",
+        "start_timestamp": "2022-11-28T13:47:33.670Z",
         "before": [
           {
             "result": {
-              "duration": 7154935000,
+              "duration": 9456194600,
               "status": "passed"
             },
             "match": {
@@ -130,7 +129,7 @@
         "after": [
           {
             "result": {
-              "duration": 873000,
+              "duration": 556051300,
               "status": "passed"
             },
             "match": {
@@ -143,7 +142,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2128124000,
+              "duration": 879891600,
               "status": "passed"
             },
             "line": 14,
@@ -155,7 +154,7 @@
           },
           {
             "result": {
-              "duration": 360606000,
+              "duration": 166249100,
               "status": "passed"
             },
             "line": 15,
@@ -181,7 +180,7 @@
           },
           {
             "result": {
-              "duration": 1358736000,
+              "duration": 1220027100,
               "status": "passed"
             },
             "line": 18,
@@ -193,7 +192,7 @@
           },
           {
             "result": {
-              "duration": 127884000,
+              "duration": 86016500,
               "status": "passed"
             },
             "line": 19,
@@ -205,7 +204,7 @@
           },
           {
             "result": {
-              "duration": 995679000,
+              "duration": 84019000,
               "status": "passed"
             },
             "line": 20,
@@ -229,11 +228,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-10-03T01:10:54.170Z",
+        "start_timestamp": "2022-11-28T13:47:33.670Z",
         "before": [
           {
             "result": {
-              "duration": 5833931000,
+              "duration": 10201800100,
               "status": "passed"
             },
             "match": {
@@ -248,7 +247,7 @@
         "after": [
           {
             "result": {
-              "duration": 12223000,
+              "duration": 567125900,
               "status": "passed"
             },
             "match": {
@@ -261,9 +260,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d94.0.4606.71)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Karthiks-MBP.hub\u0027, ip: \u00272404:4408:674d:5e00:1e5:ee55:a990:b410%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002714.0.2\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/yv/6xps4d191g1...}, goog:chromeOptions: {debuggerAddress: localhost:62377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 6a70dc9da13a3d7c565b8b6dace...}\nSession ID: 6a70dc9da13a3d7c565b8b6dace0a9da\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy70.click(Unknown Source)\n\tat com.ea.SpringBasic.pages.HomePage.ClickLogin(HomePage.java:36)\n\tat com.ea.SpringBasic.steps.LoginSteps.iClickLoginInHomePage(LoginSteps.java:29)\n\tat ✽.I click login in Home Page(file:///Users/karthikkk/Downloads/SpringBasic%203-2/src/test/java/com/ea/SpringBasic/features/LoginDup.feature:5)\n",
-              "duration": 3445718000,
-              "status": "failed"
+              "duration": 823224900,
+              "status": "passed"
             },
             "line": 5,
             "name": "I click login in Home Page",
@@ -274,8 +272,8 @@
           },
           {
             "result": {
-              "duration": 27000,
-              "status": "skipped"
+              "duration": 151962500,
+              "status": "passed"
             },
             "line": 6,
             "name": "I enter the following for Login",
@@ -300,8 +298,8 @@
           },
           {
             "result": {
-              "duration": 124000,
-              "status": "skipped"
+              "duration": 1047398400,
+              "status": "passed"
             },
             "line": 9,
             "name": "I click login button",
@@ -312,8 +310,8 @@
           },
           {
             "result": {
-              "duration": 15000,
-              "status": "skipped"
+              "duration": 69016100,
+              "status": "passed"
             },
             "line": 10,
             "name": "I should see the userform page",
@@ -324,8 +322,8 @@
           },
           {
             "result": {
-              "duration": 6000,
-              "status": "skipped"
+              "duration": 78015500,
+              "status": "passed"
             },
             "line": 11,
             "name": "I click logout link",
@@ -337,11 +335,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-03T01:10:54.170Z",
+        "start_timestamp": "2022-11-28T13:47:33.670Z",
         "before": [
           {
             "result": {
-              "duration": 6434208000,
+              "duration": 10088852000,
               "status": "passed"
             },
             "match": {
@@ -356,7 +354,7 @@
         "after": [
           {
             "result": {
-              "duration": 12415000,
+              "duration": 571126200,
               "status": "passed"
             },
             "match": {
@@ -369,9 +367,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d94.0.4606.71)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Karthiks-MBP.hub\u0027, ip: \u00272404:4408:674d:5e00:1e5:ee55:a990:b410%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002714.0.2\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/yv/6xps4d191g1...}, goog:chromeOptions: {debuggerAddress: localhost:62377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 6a70dc9da13a3d7c565b8b6dace...}\nSession ID: 6a70dc9da13a3d7c565b8b6dace0a9da\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy70.click(Unknown Source)\n\tat com.ea.SpringBasic.pages.HomePage.ClickLogin(HomePage.java:36)\n\tat com.ea.SpringBasic.steps.LoginSteps.iClickLoginInHomePage(LoginSteps.java:29)\n\tat ✽.I click login in Home Page(file:///Users/karthikkk/Downloads/SpringBasic%203-2/src/test/java/com/ea/SpringBasic/features/LoginDup.feature:14)\n",
-              "duration": 2850400000,
-              "status": "failed"
+              "duration": 806142300,
+              "status": "passed"
             },
             "line": 14,
             "name": "I click login in Home Page",
@@ -382,8 +379,8 @@
           },
           {
             "result": {
-              "duration": 18000,
-              "status": "skipped"
+              "duration": 138031900,
+              "status": "passed"
             },
             "line": 15,
             "name": "I enter the following for Login",
@@ -408,8 +405,8 @@
           },
           {
             "result": {
-              "duration": 41000,
-              "status": "skipped"
+              "duration": 1112423600,
+              "status": "passed"
             },
             "line": 18,
             "name": "I click login button",
@@ -420,8 +417,8 @@
           },
           {
             "result": {
-              "duration": 8000,
-              "status": "skipped"
+              "duration": 57937700,
+              "status": "passed"
             },
             "line": 19,
             "name": "I should see the userform page",
@@ -432,8 +429,8 @@
           },
           {
             "result": {
-              "duration": 7000,
-              "status": "skipped"
+              "duration": 84012000,
+              "status": "passed"
             },
             "line": 20,
             "name": "I click logout link",
