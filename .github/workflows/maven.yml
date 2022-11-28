@@ -34,6 +34,12 @@ jobs:
       with:
            access-token: ${{ secrets.GITHUB_TOKEN }}
            path: "**/cucumber.json"
+     
+    - name: Deploy Cucumber report to Github Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
   
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
