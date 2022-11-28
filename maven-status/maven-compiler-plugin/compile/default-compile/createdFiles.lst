@@ -1,0 +1,10 @@
+com/ea/SpringBasic/libraries/RemoteWebDriverLibrary.class
+com/ea/SpringBasic/models/UserDetails.class
+com/ea/SpringBasic/libraries/WebDriverLibrary.class
+com/ea/SpringBasic/Car.class
+com/ea/SpringBasic/libraries/BrowserScopeConfig.class
+com/ea/SpringBasic/annotation/PageScope.class
+com/ea/SpringBasic/libraries/BrowserScope.class
+com/ea/SpringBasic/models/TestUserDetails.class
+com/ea/SpringBasic/SpringBasicApplication.class
+com/ea/SpringBasic/libraries/BrowserScopePostProcessor.class
